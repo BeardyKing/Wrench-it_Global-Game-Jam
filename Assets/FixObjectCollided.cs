@@ -22,9 +22,12 @@ public class FixObjectCollided : MonoBehaviour
             Destroy(transform.gameObject);
         }
         if (other.gameObject.tag == "Turret") {
-            other.gameObject.GetComponent<GunController>().health += .7f;
+            other.gameObject.GetComponent<GunController>().health += 1.2f;
             Destroy(transform.gameObject);
-
+        }
+        if (other.gameObject.tag == "Tower") {
+            other.gameObject.GetComponent<IfThisDiesYouLose>().health += .6f;
+            Destroy(transform.gameObject);
         }
     }
 }
