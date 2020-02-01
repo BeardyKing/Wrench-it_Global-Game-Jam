@@ -377,8 +377,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 2717019211876366771, guid: 53201c589104bca448c4699f6414acd1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -502,8 +501,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 2717019211876366771, guid: 53201c589104bca448c4699f6414acd1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -873,7 +871,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos1
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1096,7 +1094,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos2
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1166,7 +1164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.3647059}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1339,7 +1337,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos1
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1369,7 +1367,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos2
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1505,6 +1503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1837324645}
+  updateOverride: 1
   axes: 0
   sensitivityX: 1
   sensitivityY: 1
@@ -1512,7 +1511,9 @@ MonoBehaviour:
   maximumX: 360
   minimumY: -60
   maximumY: 60
-  frameCounter: 10
+  rotationX: 0
+  rotationY: 0
+  frameCounter: 2
 --- !u!1 &536899312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,7 +1526,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos2
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1650,8 +1651,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 2717019211876366771, guid: 53201c589104bca448c4699f6414acd1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2001,8 +2001,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 2717019211876366771, guid: 53201c589104bca448c4699f6414acd1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2122,7 +2121,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos2
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2428,7 +2427,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos2
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2462,8 +2461,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 2717019211876366771, guid: 53201c589104bca448c4699f6414acd1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2583,7 +2581,7 @@ GameObject:
   m_Layer: 0
   m_Name: WrenchSpawnPos
   m_TagString: Untagged
-  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2704,7 +2702,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos1
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2756,8 +2754,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -2.71}
-  m_SizeDelta: {x: 0, y: 60.86}
+  m_AnchoredPosition: {x: 0, y: 0.000022888}
+  m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1216448177
 MonoBehaviour:
@@ -2772,7 +2770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2792,7 +2790,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'YOU LASTED : 14.5'
+  m_Text: "PROTECT THE 'CUBE!' \nLEFT CLICK TO START & THROW THE FIXING WRENCH"
 --- !u!222 &1216448178
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2904,7 +2902,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos2
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3050,7 +3048,7 @@ MonoBehaviour:
   bigBoi: {fileID: 0}
   bar: {fileID: 286897132}
   text: {fileID: 1216448177}
-  restart: {fileID: 0}
+  restart: {fileID: 1725250377}
   health: 3
 --- !u!65 &1273925225
 BoxCollider:
@@ -3357,7 +3355,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos1
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3511,7 +3509,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos1
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3592,7 +3590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 4379937842876595619, guid: 1fad239bfaa73464d80216af53488002, type: 3}
-  health: 1
+  health: 0.2
   shootPos1: {fileID: 1490735846}
   shootPos2: {fileID: 2089768863}
   temp: {fileID: 0}
@@ -3666,7 +3664,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos1
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3825,8 +3823,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 2717019211876366771, guid: 53201c589104bca448c4699f6414acd1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3968,7 +3965,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 483, y: -63}
+  m_AnchoredPosition: {x: 483, y: -49.3}
   m_SizeDelta: {x: 0, y: 60.86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725250377
@@ -4117,7 +4114,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos1
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4217,8 +4214,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 2717019211876366771, guid: 53201c589104bca448c4699f6414acd1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4338,7 +4334,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos1
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4444,7 +4440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837324641}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.7, z: -29.8}
+  m_LocalPosition: {x: 0.19, y: 2, z: -64.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4547,6 +4543,7 @@ GameObject:
   - component: {fileID: 1893584870}
   - component: {fileID: 1893584869}
   - component: {fileID: 1893584868}
+  - component: {fileID: 1893584872}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4634,6 +4631,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1893584872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893584867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929a28aafd9dc4ce6928e1db7a44a3cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 286897132}
+  txt: {fileID: 1216448177}
 --- !u!1 &1902968117
 GameObject:
   m_ObjectHideFlags: 0
@@ -4737,7 +4748,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos2
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4803,8 +4814,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 2717019211876366771, guid: 53201c589104bca448c4699f6414acd1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5093,7 +5103,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos2
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5340,7 +5350,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos2
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5374,8 +5384,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 2717019211876366771, guid: 53201c589104bca448c4699f6414acd1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5495,7 +5504,7 @@ GameObject:
   m_Layer: 0
   m_Name: shootPos1
   m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

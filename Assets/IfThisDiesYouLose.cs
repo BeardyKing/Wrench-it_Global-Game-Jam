@@ -62,6 +62,7 @@ public class IfThisDiesYouLose : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.R)){
                 SceneManager.LoadScene(0);
+                Time.timeScale = 1;
             }
         }
         else{
